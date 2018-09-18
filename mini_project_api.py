@@ -100,7 +100,7 @@ class mini_project_1:
 		x = 0
 		for index in url_mem:
 			file_name = "image_"+ str(x)
-			full_path = 'IMG/' + file_name + '.jpg'
+			full_path = file_name + '.jpg'
 			urllib.request.urlretrieve(url_mem[x], full_path)
 			x = x+1
 
@@ -149,7 +149,7 @@ class mini_project_1:
 if __name__ == '__main__':
 
 	user = mini_project_1()
-	user.name = sys.argv[1]
+	user.name = input('Enter a twitter account:')
 
 	user.tweet_api()
 	user.ffmpeg()
