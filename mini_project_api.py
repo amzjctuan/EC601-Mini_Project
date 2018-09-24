@@ -18,10 +18,10 @@ from google.cloud import videointelligence
 import io
 
 ## Twitter API credentials
-consumer_key = 'OSyoPl5h5woBUX0x1vnYUjNQR' 
-consumer_secret = 'ibwVbguvtMmcIlM3AdMJ3WPq0yd8HjfczRunoblYHLPGIKMVId'
-access_token = '1039645304008597510-WkpUCiV1m6yLoq54im2heOiNQXFsZs'
-access_token_secret = 'qk817bo5pkrW2z2zVZi9sO9BQ1zEWwsc8MZMgfQOGMsld'
+consumer_key = 'Enter consumer key' 
+consumer_secret = 'Enter consumer secret'
+access_token = 'Enter access token'
+access_token_secret = 'Enter access token secret'
 
 class mini_project_1:
 	
